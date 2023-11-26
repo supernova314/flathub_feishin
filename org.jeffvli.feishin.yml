@@ -1,9 +1,9 @@
 app-id: org.jeffvli.feishin
 runtime: org.freedesktop.Platform
-runtime-version: "22.08"
+runtime-version: "23.08"
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: "22.08"
+base-version: "23.08"
 command: feishin
 separate-locales: false
 
@@ -84,8 +84,8 @@ modules:
       - install -Dm 755 ../feishin.sh /app/bin/feishin
     sources:
       - type: archive
-        url: https://github.com/jeffvli/feishin/releases/download/v0.5.0/Feishin-0.5.0-linux-x64.tar.xz
-        sha256: 773bd8f914278b30fae6073875218f33197dec005161d97ea67719ebcec003b1
+        url: https://github.com/jeffvli/feishin/releases/download/v0.5.2/Feishin-0.5.2-linux-x64.tar.xz
+        sha256: ff33d5ffda390fbd79077089d02c37c836e61a0eadfac14d6f0cf035def45c1d
         dest: main
       - type: dir
         path: .
